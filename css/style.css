@@ -1,0 +1,25 @@
+#title {
+    width: 980px;
+    /*padding: 20px 0;*/
+    margin: 0 auto;
+    text-align: left;
+}
+h1 {
+    margin: 0 auto 5px auto;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 400;
+    color: #777;
+    line-height: 1em;
+    text-shadow: #ccc 2px 2px 8px;
+}
+h1 a {
+    color: #a74646;
+    font-weight: 400;
+    text-decoration: none;
+    border: 0;
+}
+h1 a:hover {color:#777; text-decoration:none; border:0;}
+.slogan {color:#467aa7; font-size:1.4em; margin:0; padding:0;}
+table{font-size: 10px;}
+.oculto{display: none}
