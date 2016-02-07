@@ -9,7 +9,7 @@ var appAgJS = angular.module('appAngularjs.controllers', []);
         var getUsers = function() {
         	$http.get('http://127.0.0.1:5000/users',{headers: {'Authorization': 'Basic YWRtaW46c2VjcmV0'}}).
 	        success(function(data) {
-	            $scope.greeting = data;
+	            $scope.users = data;
 	        });
         }
         $scope.newUser = function() {
